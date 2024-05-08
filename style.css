@@ -14,7 +14,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
-    margin: 0 200px;
+    margin: 0px;
     
 }
 
@@ -75,7 +75,7 @@ h3 {
     height: 120px;
     margin: 35px;
     margin-right: 150px;
-    width: 450px;
+    width: 400px;
     margin-top: 48px;
     margin-bottom: 50px;
 }
@@ -102,6 +102,8 @@ button {
     transition-duration: 0.4s;
     cursor: pointer;
     margin-bottom: 50px;
+    flex-shrink: 0;
+    flex-grow: 0;
 
 }
 
@@ -167,7 +169,7 @@ h4 {
     display: flex;
     flex-flow: column nowrap;
     background-color: #E5E7EB;
-    margin: 0 200px;
+    margin: 0px;
     color: #1F2937;
     align-items: center;
     gap: 5px;
@@ -181,15 +183,86 @@ h4 {
     color: #1F2937;
     margin-top: 35px;
     font-style: italic;
+    font-weight: 150;
 }
 
-h6 {
+h5 {
     display: flex;
     margin-top: 0px;
     margin-right: 10px;
-
+    margin-left: 400px;
 }
 
-* {
-    outline: 2px solid violet;
+.account {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 800px;
+    height: 100px;
+    background-color: #3882F6;
+    border-radius: 12px;
+    margin: 50px 215px;
 }
+
+.acc-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.acc-one {
+
+    gap: 0px;
+    margin: 0px;
+    padding: 2px;
+    padding-bottom: 0px;
+    font-weight: 800;
+    margin-left: 50px;
+    color: #F9FAF8;
+}
+
+.acc-two {
+    gap: 0px;
+    margin: 0px;
+    padding-top: 0px;
+    margin-left: 50px;
+    color: #E5E7EB;
+}
+
+.acc-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button2 {
+    background-color: #3882F6;
+    border: none;
+    color: #F9FAF8;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 4px 16px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    flex-shrink: 0;
+    flex-grow: 0;
+    margin-top: 40px;
+    margin-left: 90px;
+    outline: solid #F9FAF8 1px;
+}
+
+.button2:hover {
+    background-color: hsl(240, 26%, 93%);
+    color: #3882F6;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
+
